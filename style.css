@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+h2{
+    font-size: 40px;
+}
+.clr{
+    color: #FF297D;
+}
+section{
+    height: 750px;
+}
+.half-side{
+    float: left;
+    width: 40%;
+}
+.half-side img{
+    width: 95%;
+}
+.top-background{
+    padding-top: 7%;
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#special-pad{
+    padding-top: 100px;
+    margin-left: 230px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon, tomato);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+p{
+    font-size: 15px;
+    color: gray;
+}
